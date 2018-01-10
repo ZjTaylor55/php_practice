@@ -13,5 +13,14 @@
       </div>
       <div class="container">
           @yield('more content')
+      </div>
+      @extends('view')
+      @section('title', 'Page Title')
+      @section('sidebar')
+        @parent
+          <p> This is appended to the master sidebar.</p>
+      @endsection
+        
+      @endsection
   </body>
 </html>
