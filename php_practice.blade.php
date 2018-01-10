@@ -11,5 +11,7 @@
       <div class="container">
           @yield('content')
       </div>
+      <div class="container">
+          @yield('more content')
   </body>
 </html>
